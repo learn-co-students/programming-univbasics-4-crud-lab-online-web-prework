@@ -1,12 +1,13 @@
 def create_an_empty_array
-  
+  [ ]
 end
 
 def create_an_array
-  
+  phones = ["android", "ios", "iphone", "pixel"]
 end
 
 def add_element_to_end_of_array(array, element)
+  phones = ["android", "ios", "iphone", "pixel"]
   
 end
 
@@ -15,7 +16,9 @@ def add_element_to_start_of_array(array, element)
 end
 
 def remove_element_from_end_of_array(array)
+  phones = ["android", "ios", "iphone", "pixel"]
   
+  "android" = phones.pop
 end
 
 def remove_element_from_start_of_array(array)
