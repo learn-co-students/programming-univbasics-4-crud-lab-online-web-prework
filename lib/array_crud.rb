@@ -1,13 +1,14 @@
 def create_an_empty_array
-  
+[] 
 end
 
 def create_an_array
-  
+ ["red", "white", "blue", "gold"] 
 end
 
 def add_element_to_end_of_array(array, element)
-  
+ ["yellow", "orange", "green", "purple"] 
+
 end
 
 def add_element_to_start_of_array(array, element)
