@@ -1,28 +1,32 @@
-def create_an_empty_array
+def create_an_empty_array[]
   
 end
 
-def create_an_array
+def Friends= Array("April", "Colleen", "Jen", "Kristi")
   
 end
 
-def add_element_to_end_of_array(array, element)
+def Friends_ages= array (:April[41] :Colleen[30]:Jem[27] :kristi[32])
   
 end
 
-def add_element_to_start_of_array(array, element)
+def  Friends_ages= array (:April[41] :Colleen[30]:Jem[27]: Kristi[32])
   
 end
 
-def remove_element_from_end_of_array(array)
+def  Friends_ages= array (:April[41] :Colleen[30]:Jem[27]:Kristi[32])
+  array.new[]
   
 end
 
-def remove_element_from_start_of_array(array)
+def Friends_ages= array (:April[] :Colleen[30]:Jem[27]: Kristi[32])
+  array.new[]
   
 end
 
-def retrieve_element_from_index(array, index_number)
+def Friends_ages= array (:April[41], :Colleen[30]:Jem[27] : Kristi[32])
+  array.new[]
+  puts 
   
 end
 
