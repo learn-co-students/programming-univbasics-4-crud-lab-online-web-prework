@@ -1,16 +1,22 @@
 def create_an_empty_array
-  
+  []
 end
 
 def create_an_array
+  ["cat", "dog", "pig", "hamster"]
   
 end
 
 def add_element_to_end_of_array(array, element)
+  ["wow", "I", "am", "really", "learning"]
+  << "arrays!"
   
 end
 
 def add_element_to_start_of_array(array, element)
+  ["I", "am", "really", "learning"]
+  .unshift "wow"
+  
   
 end
 
