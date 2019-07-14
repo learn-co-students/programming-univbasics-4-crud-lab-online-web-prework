@@ -1,20 +1,30 @@
 def create_an_empty_array
-  
+  return []
 end
 
 def create_an_array
+  
+  return ['a', 'b', 'c', 'd']
   
 end
 
 def add_element_to_end_of_array(array, element)
   
+  return array << element
+  
 end
 
 def add_element_to_start_of_array(array, element)
   
+  array.unshift()
+  array
+  
 end
 
 def remove_element_from_end_of_array(array)
+  
+  array.pop()
+  array
   
 end
 
