@@ -1,39 +1,30 @@
-def create_an_empty_array
+create_an_empty_array
+expect (create_an_empty_array .to eq ([ ]) 
+end
+create_an_array creates an array with four elements
+  expect 
+end
+add_element_to_end_of_array(array, element), last) .to eq
   
 end
-
-def create_an_array
+add_element_to_start_of_array(array, element) .first) .to eq ( )
   
 end
-
-def add_element_to_end_of_array(array, element)
+remove_element_from_end_of_array(array)) . to eq ( )
   
 end
-
-def add_element_to_start_of_array(array, element)
+remove_element_from_start_of_array(array)) .to eq ( )
   
 end
-
-def remove_element_from_end_of_array(array)
+retrieve_element_from_index(array, 2)) .to eq( )
   
 end
-
-def remove_element_from_start_of_array(array)
+retrieve_first_element_from_array(array)) .to eq( )
   
 end
-
-def retrieve_element_from_index(array, index_number)
+retrieve_last_element_from_array(array)) .to eq( )
   
 end
-
-def retrieve_first_element_from_array(array)
-  
-end
-
-def retrieve_last_element_from_array(array)
-  
-end
-
-def update_element_from_index(array, index_number, element)
+update_element_from_index(array, 4)) .to eq ( )
 
 end
