@@ -1,6 +1,5 @@
 def create_an_empty_array
   []
-  
 end
 
 def create_an_array
@@ -9,50 +8,35 @@ def create_an_array
 end
 
 def add_element_to_end_of_array(array, element)
-  my_pets = ["pepper" , "chloe" , "dashal" , "cupcake"]
-  
-   my_pets =  << "piggy smalls"
+  array.push(element)
 end
 
 def add_element_to_start_of_array(array, element)
-  my_pets = ["pepper" , "chloe" , "dashal" , "cupcake"]
-  
-my_pets.unshift("goldie")  
+array.unshift(element)  
 end
 
 def remove_element_from_end_of_array(array)
-  my_pets = ["pepper" , "chloe" , "dashal" , "cupcake"]
-  
-  cupcake = my_pets.pop
+  array.pop
 end
 
 def remove_element_from_start_of_array(array)
-  my_pets = ["pepper" , "chloe" , "dashal" , "cupcake"]
-  
-  pepper = my_pets.shift
+ array.shift
 end
 
 def retrieve_element_from_index(array, index_number)
-  my_pets = ["pepper" , "chloe" , "dashal" , "cupcake"]
-  
-  my_pets[2]
-end
+  array[index_number]
+
+end #solved!
 
 def retrieve_first_element_from_array(array)
-  my_pets = ["pepper" , "chloe" , "dashal" , "cupcake"]
-  
-  my_pets[0]
+ array[0] #this one is correct! so dont change it Lauren
 end
 
 def retrieve_last_element_from_array(array)
-  my_pets = ["pepper" , "chloe" , "dashal" , "cupcake"]
-  
-  my_pets[-1]
-end
+ array[-1]
+end #this one is correct! so don't change it Lauren
 
 def update_element_from_index(array, index_number, element)
-  my_pets = ["pepper" , "chloe" , "dashal" , "cupcake"]
-  
-  my_pets[1] = "piggy smalls"
+  array[index_number]=element
 
-end
+end #still needs to be solved!
