@@ -1,39 +1,42 @@
 def create_an_empty_array
+  []
+end
+
+def create_an_array = ["one", "two", "three", "four"]
+end
+
+def digits << "five"
   
 end
 
-def create_an_array
+def digits = ["one", "two", "three", "four", "five"]
+  digits.unshift("six")
+end
+
+def digits  = ["one", "two", "three", "four", "five"]
+  digits.pop("five")
+  p digits
   
 end
 
-def add_element_to_end_of_array(array, element)
+def digits  = ["one", "two", "three", "four", "five"]
+ one = digits.shift
   
 end
 
-def add_element_to_start_of_array(array, element)
-  
+def digits  = ["one", "two", "three", "four", "five"]
+  digits[1]
 end
 
-def remove_element_from_end_of_array(array)
-  
-end
-
-def remove_element_from_start_of_array(array)
-  
-end
-
-def retrieve_element_from_index(array, index_number)
-  
-end
-
-def retrieve_first_element_from_array(array)
-  
+def digits  = ["one", "two", "three", "four", "five"]
+  digits.index[0]
 end
 
 def retrieve_last_element_from_array(array)
-  
+  digits[-1]
 end
 
-def update_element_from_index(array, index_number, element)
+def digits  = ["one", "two", "three", "four", "five"]
+  digits[1] = "six"
 
 end
