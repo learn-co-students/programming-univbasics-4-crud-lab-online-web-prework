@@ -1,39 +1,53 @@
 def create_an_empty_array
-  
+  []
 end
 
 def create_an_array
-  
+  ["Naruto","Sakura", "Sasuke", "Kakashi"]
 end
 
-def add_element_to_end_of_array(array, element)
-  
-end
+def add_element_to_end_of_array(array, element) 
+    add_element_to_end_of_array = ["wow", "I", "am", "really", "learning"]
+    add_element_to_end_of_array << "arrays!"  
+  end
 
 def add_element_to_start_of_array(array, element)
-  
-end
+  add_element_to_start_of_array = ["I", "am", "really", "learning"]
+  add_element_to_start_of_array.unshift("wow")
+ end
 
 def remove_element_from_end_of_array(array)
-  
+  remove_element_from_end_of_array = ["I", "am", "really", "learning", "arrays!"]
+  arrays_remove = remove_element_from_end_of_array.pop
+  p remove_element_from_end_of_array
+  p arrays_remove
 end
 
 def remove_element_from_start_of_array(array)
-  
+  remove_element_from_start_of_array = ["wow", "I", "am", "really", "learning", "arrays!"]
+  arrays_remove = remove_element_from_start_of_array.shift
+  p remove_element_from_start_of_array
+  p arrays_remove
 end
 
 def retrieve_element_from_index(array, index_number)
-  
+  retrieve_element_from_index = ["wow", "I", "am", "really", "learning", "arrays!"]
+  p retrieve_element_from_index[2]
 end
 
 def retrieve_first_element_from_array(array)
+  retrieve_first_element_from_array = ["wow", "I", "am", "really", "learning", "arrays!"]
+  p retrieve_first_element_from_array[0]
   
 end
 
 def retrieve_last_element_from_array(array)
-  
+ retrieve_last_element_from_array = ["wow", "I", "am", "really", "learning", "arrays!"]
+ p retrieve_last_element_from_array[5]
 end
 
 def update_element_from_index(array, index_number, element)
-
+update_element_from_index = ["wow", "I", "am", "really", "learning", "arrays!"]
+update_element_from_index[4] = "totally"
+p update_element_from_index[4]
 end
