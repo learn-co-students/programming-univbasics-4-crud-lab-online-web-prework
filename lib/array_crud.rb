@@ -6,17 +6,18 @@ def create_an_array
   [2, 4, 6, 8]
 end
 
-def add_element_to_end_of_array(array, element)
+def add_element_to_end_of_array(Kofi, Ama)
   add_element_to_end_of_array = [Kofi, Ama]
   add_element_to_end_of_array << "Human Being"
-end
-
-def add_element_to_start_of_array(array, element)
   
 end
 
-def remove_element_from_end_of_array(array)
-  
+def add_element_to_start_of_array(Kofi, Ama)
+  add_element_to_start_of_array. unshift ("Human Being")
+end
+
+def remove_element_from_end_of_array(Kofi)
+  Kofi = remove_element_from_end_of_array.pop
 end
 
 def remove_element_from_start_of_array(array)
