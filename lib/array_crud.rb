@@ -7,32 +7,33 @@ def arr.names
 end
 
 def arr.names (Kofi, Ama)
-  array.names = [Kofi, Ama]
-  array.names << "Human Being"
+  arr.names = [Kofi, Ama]
+  arr.names << "Human Being"
   
 end
 
-def array.names (Kofi, Ama)
-  array.names ("Human Being")
+def arr.names (Kofi, Ama)
+  arr.names ("Human Being")
+  Human Being = (Kofi, Ama) 
 end
 
-def array.names(Kofi)
-  Kofi = array.pop
+def arr.names(Kofi)
+  Kofi = arr.pop
 end
 
-def array.names (Kofi)
+def arr.names (Kofi)
   Kofi = Human Being
 end
 
-def array.names (2, 4, 6, 8)
-  Ama = array.index [6]
+def arr.names (2, 4, 6, 8)
+  Ama = arr.index [6]
 end
 
-def array.names(Kofi)
+def arr.names(Kofi)
   Human Being = [Kofi]
 end
 
-def array.names(Ama)
+def arr.names(Ama)
   Ama = [2, 4, 6,  8]
 end
 
