@@ -1,12 +1,12 @@
-def new_name.array
+def arr.names
   []
 end
 
-def array.names
+def arr.names
   [2, 4, 6, 8]
 end
 
-def array.names (Kofi, Ama)
+def arr.names (Kofi, Ama)
   array.names = [Kofi, Ama]
   array.names << "Human Being"
   
@@ -20,11 +20,11 @@ def array.names(Kofi)
   Kofi = array.pop
 end
 
-def remove_element_from_start_of_array(array)
-  Kofi = array.shift
+def array.names (Kofi)
+  Kofi = Human Being
 end
 
-def retrieve_element_from_index(array, index_number)
+def array.index(2, 4, 6, 8)
   Ama = array.index [6]
 end
 
