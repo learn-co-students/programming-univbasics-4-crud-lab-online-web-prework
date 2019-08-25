@@ -1,4 +1,4 @@
-def array.names
+def new_name.array
   []
 end
 
@@ -21,15 +21,15 @@ def array.names(Kofi)
 end
 
 def remove_element_from_start_of_array(array)
-  
+  Kofi = array.shift
 end
 
 def retrieve_element_from_index(array, index_number)
-  
+  Ama = array.index [6]
 end
 
 def retrieve_first_element_from_array(array)
-  
+  Kofi = array
 end
 
 def retrieve_last_element_from_array(array)
