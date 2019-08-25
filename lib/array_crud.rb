@@ -24,16 +24,16 @@ def array.names (Kofi)
   Kofi = Human Being
 end
 
-def array.index(2, 4, 6, 8)
+def array.names (2, 4, 6, 8)
   Ama = array.index [6]
 end
 
-def retrieve_first_element_from_array(array)
-  Kofi = array
+def array.names(Kofi)
+  Human Being = [Kofi]
 end
 
-def retrieve_last_element_from_array(array)
-  
+def array.names(Ama)
+  Ama = [2, 4, 6,  8]
 end
 
 def update_element_from_index(array, index_number, element)
