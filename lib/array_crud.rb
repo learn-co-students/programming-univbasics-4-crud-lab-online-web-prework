@@ -1,37 +1,40 @@
-def create_an_empty_array
+def arr.names
+  []
+end
+
+def arr.names
+  [2, 4, 6, 8]
+end
+
+def arr.names (Kofi, Ama)
+  arr.names = [Kofi, Ama]
+  arr.names << "Human Being"
   
 end
 
-def create_an_array
-  
+def arr.names (Kofi, Ama)
+  arr.names ("Human Being")
+  Human Being = (Kofi, Ama) 
 end
 
-def add_element_to_end_of_array(array, element)
-  
+def arr.names(Kofi)
+  Kofi = arr.pop
 end
 
-def add_element_to_start_of_array(array, element)
-  
+def arr.names (Kofi)
+  Kofi = Human Being
 end
 
-def remove_element_from_end_of_array(array)
-  
+def arr.names (2, 4, 6, 8)
+  Ama = arr.index [6]
 end
 
-def remove_element_from_start_of_array(array)
-  
+def arr.names(Kofi)
+  Human Being = [Kofi]
 end
 
-def retrieve_element_from_index(array, index_number)
-  
-end
-
-def retrieve_first_element_from_array(array)
-  
-end
-
-def retrieve_last_element_from_array(array)
-  
+def arr.names(Ama)
+  Ama = [2, 4, 6,  8]
 end
 
 def update_element_from_index(array, index_number, element)
