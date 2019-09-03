@@ -1,28 +1,33 @@
-def create_an_empty_array
+def my_array =[ ]
   
 end
 
-def create_an_array
+def puppies = ["bulldogs", "terrier", "poodle"]
   
 end
 
-def add_element_to_end_of_array(array, element)
+def puppies = ["bulldogs", "terrier", "poodle"]
+  puppies << "labs"
   
 end
 
-def add_element_to_start_of_array(array, element)
+def puppies = ["bulldogs", "terrier", "poodle"]
+  puppies.unshift ("labs")
   
 end
 
-def remove_element_from_end_of_array(array)
+def puppies = ["bulldogs", "terrier", "poodle"]
+  puppies.unshift ("labs")
   
 end
 
-def remove_element_from_start_of_array(array)
+def puppies = ["bulldogs", "terrier", "poodle"]
+  puppies.pop ("poodle")
   
 end
 
-def retrieve_element_from_index(array, index_number)
+def puppies = ["bulldogs", "terrier", "poodle"]
+  puppies [1]
   
 end
 
