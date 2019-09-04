@@ -1,39 +1,51 @@
 def create_an_empty_array
   
-end
+end puppies = []
 
 def create_an_array
   
-end
+end puppies = ["bulldog", "terrier", "poodle", "husky"]
 
 def add_element_to_end_of_array(array, element)
   
-end
+end puppies << "golden retriever"
 
 def add_element_to_start_of_array(array, element)
   
-end
+end puppies.unshift(golden retriever)
 
 def remove_element_from_end_of_array(array)
   
-end
+end husky = puppies.pop
 
 def remove_element_from_start_of_array(array)
   
-end
+end bulldog = puppies.shift
 
 def retrieve_element_from_index(array, index_number)
   
-end
+end puppies [0]
+#=> "bulldog" 
+
+puppies [1]
+#=> "terrier"
+
+puppies [2]
+#=> "poodle"
+
+puppies [3]
+#=> "husky"
 
 def retrieve_first_element_from_array(array)
   
-end
+end puppies [0]
+#=> "bulldog" 
 
 def retrieve_last_element_from_array(array)
   
-end
+end puppies [3]
+#=> "husky"
 
 def update_element_from_index(array, index_number, element)
 
-end
+end puppies[2] = "labrador" 
