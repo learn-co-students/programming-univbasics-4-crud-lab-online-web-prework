@@ -13,7 +13,7 @@
 ## Introduction
 
 In this lab, you will create arrays, add data to arrays, remove data from arrays
-and retrieve data from arrays.
+and retrieve data from https://learn.co/tracks/fswd-prework-2-0/cli-essentials/programming-as-conversation-part-4-collection-data-types-array-and-hash/array-basics-lab?batch_id=768&track_id=52506#arrays.
 
 We will be coding the solutions for each of the above tasks in the body of a
 method. In `lib/array_crud.rb` we've defined a series of methods for you, each
