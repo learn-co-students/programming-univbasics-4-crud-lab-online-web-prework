@@ -1,14 +1,15 @@
-def create_an_empty_array
-  
+#def create_an_empty_array
+  []
+end
+ 
+def soda_type
+  ["Coke", "Sprite", "Pepsi", "Orange soda"]
+  puts soda_type[2]
 end
 
-def create_an_array
+def add_element_to_end_of_array
   
-end
-
-def add_element_to_end_of_array(array, element)
-  
-end
+end   
 
 def add_element_to_start_of_array(array, element)
   
