@@ -1,12 +1,14 @@
 def create_an_empty_array
-  
+  []
 end
 
 def create_an_array
-  
+  ["dog", "cat", "fish", "bunny"]
 end
 
 def add_element_to_end_of_array(array, element)
+  ["dog", "cat", "fish", "bunny"]
+  >> "bird"
   
 end
 
