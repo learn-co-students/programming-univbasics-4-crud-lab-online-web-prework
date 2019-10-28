@@ -1,5 +1,5 @@
-def create_an_empty_array
-  
+def create_an_empty_array=[apple,orange,pear,kiwi]
+  create_an_empty_array<<"banana"
 end
 
 def create_an_array
