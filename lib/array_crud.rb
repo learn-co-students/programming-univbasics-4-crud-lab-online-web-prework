@@ -3,34 +3,24 @@ def create_an_empty_array
 end
 
 def create_an_array
-  coding_lab = ["wow", "Iam", "really", "learning"]
+  array = [1, 2, 3, 4]
 end
 
-def add_element_to_end_of_array(array,element)
-  coding_lab = ["wow", "Iam", "really", "learning"]
-  coding_lab.push("arrays!")
-  element = ("arrays!")
-  p coding_lab
+def add_element_to_end_of_array(array, element)
+   array.push("arrays!")
 end
 
 def add_element_to_start_of_array(array, element)
-  coding_lab = ["wow", "Iam", "really", "learning","arrays!"]
-  coding_lab.unshift("wow")
-  element = ("wow")
-  p coding_lab
+    array.unshift("wow")
 end
 
 def remove_element_from_end_of_array(array)
-  coding_lab = ["wow", "wow", "Iam", "really", "learning", "arrays!"]
-  coding_lab.pop()
-  p coding_lab
-  p "arrays!"
+    array.pop()
 end
 
 def remove_element_from_start_of_array(array)
-  coding_lab = ["wow", "Iam", "really", "learning"]
-  coding_lab.shift
- end
+    array.shift()
+end
 
 def retrieve_element_from_index(array, index_number)
     array[index_number]
