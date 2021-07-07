@@ -1,12 +1,18 @@
-def create_an_empty_array
-  
+'bundler'
+
+ describe "create_an_empty_array"
+  it "creates and return and empty array "
+     expect(create_an_empty_array).to eq([]) 
+  end
+ end
+ 
+describe "create_an_array"
+  it "creates an array with four elements"
+    expect(create_an_array).to be_a(['9'])
+    expect(create_an_array.size).to eq('4')
+ end
 end
 
-def create_an_array
-  
-end
-
-def add_element_to_end_of_array(array, element)
   
 end
 
